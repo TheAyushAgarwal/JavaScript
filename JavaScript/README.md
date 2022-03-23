@@ -108,4 +108,48 @@ if(age>8)
 else{
     console.log("you are not a kid");
 }
+// Loops in Java Script
+var arr= [1,2,3,4,5,6,7];
+console.log(arr);
+    // for loop
+for(var i=0;i<arr.length;i++)
+{
+    console.log(arr[i])
+}
+    // while loop
+while(j<arr.length){
+    console.log(arr[j]);
+    j++;
+}
+
+    // do while
+do
+{
+    console.log(arr[j]);
+    j++;
+    
+}while(j<arr.length);
+
+// break and continue
+
+var arr= [1,2,3,4,5,6,7];
+    
+for(var i=0;i<arr.length;i++)
+{
+    if(i=2)
+    {
+        break;
+        //here it will break the for loop
+    }
+ console.log(arr[i])
+}
+for(var i=0;i<arr.length;i++)
+{
+    if(i=2)
+    {
+        continue;
+        // here it will just break the current condition but excutes all codes except it
+    }
+    console.log(arr[i])
+}
 ```
